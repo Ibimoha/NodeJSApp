@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'docker build -t ibimnoha/$APP_NAME .'
+                sh 'docker build -t ibimoha/$APP_NAME .'
             }
         }
         stage('Login'){
